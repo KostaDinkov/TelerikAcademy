@@ -13,8 +13,8 @@ class BitExchange
 {
     static void Main()
     {
-        
-        uint inputInt = uint.Parse(Console.ReadLine());                               //Read the input number
+        Console.Write("Input a number:");
+        uint inputInt = uint.Parse(Console.ReadLine());                             //Read the input number
         string inputStr = Convert.ToString(inputInt,2).PadLeft(32,'0');             //Convert Input to binary string representation with leading zeros 
         int[] inputArray = inputStr.Select(c => int.Parse(c.ToString())).ToArray(); //Create an array of ints from the string; example: {0,0,0,1,0,...,1,0}
         
