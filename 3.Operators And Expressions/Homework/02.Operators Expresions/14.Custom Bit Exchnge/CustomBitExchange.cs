@@ -18,8 +18,8 @@ class BitExchange
         int positionP = int.Parse(Console.ReadLine());                                //Read the first bit sequence position  
         Console.Write("Input the second bit position to be exchanged: ");
         int positionQ = int.Parse(Console.ReadLine());                                //Read the second bit sequence position  
-        Console.Write(@"Enter the how many successive bit you want \n
-                        to exchange between positions:");
+        Console.Write("Enter the how many successive bit you want\n"+
+                        "to exchange between positions:");
         int seqLen = int.Parse(Console.ReadLine());                                   //Read the lenght of the bit position sequence  
        
         string inputStr = Convert.ToString(inputInt, 2).PadLeft(32, '0');           //Convert Input to binary string representation with leading zeros 
@@ -30,7 +30,7 @@ class BitExchange
         positionP = Math.Abs((positionP) - 31) - seqLen+1;                          //The positions adapted to corespond to the right indexes in the array
         positionQ = Math.Abs((positionQ) - 31) - seqLen+1;                          
         
-        Array.Copy(inputArray,positionQ, resultArray, positionP, seqLen);          //Using  the Array.Copy method as decribed in Problem 13.
+        Array.Copy(inputArray,positionQ, resultArray, positionP, seqLen);          //Using  the Array.Copy method as decribed in  13.Bit Exchange Array project.
         Array.Copy(inputArray,positionP, resultArray, positionQ, seqLen);          //Note that exception will be thrown if the sum  of any of  the starting positions and the sequence lenght is   
                                                                                    //greater than 32 wich is the array's  and int type's lenght.                                                            
         PrintValues(resultArray);

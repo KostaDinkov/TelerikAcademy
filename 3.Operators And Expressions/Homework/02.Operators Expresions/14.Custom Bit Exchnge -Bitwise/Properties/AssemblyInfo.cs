@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("exercise")]
+[assembly: AssemblyTitle("14.Custom Bit Exchnge -Bitwise")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("exercise")]
+[assembly: AssemblyProduct("14.Custom Bit Exchnge -Bitwise")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c90df6a1-a9d0-4301-b596-277ffc3669d0")]
+[assembly: Guid("9810b146-184e-4ea2-b0af-b9a36effa105")]
 
 // Version information for an assembly consists of the following four values:
 //

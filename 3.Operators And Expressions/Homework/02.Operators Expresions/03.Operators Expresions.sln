@@ -25,9 +25,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.Extract Bit At Position"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.Modify Bit At Position", "13.Modify Bit At Position\12.Modify Bit At Position.csproj", "{A4D80234-3F67-4D9E-9733-F9E500DB35BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.Bit Exchange", "13.Bit Exchange\13.Bit Exchange.csproj", "{DC8454D5-66FB-4FB5-93E5-0FAE276C9FFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.Bit Exchange Array", "13.Bit Exchange\13.Bit Exchange Array.csproj", "{DC8454D5-66FB-4FB5-93E5-0FAE276C9FFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.Custom Bit Exchnge", "14.Custom Bit Exchnge\14.Custom Bit Exchnge.csproj", "{F9B78964-6423-442B-B5A6-5CA2AC1C8F68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.Custom Bit Exchnge - Array", "14.Custom Bit Exchnge\14.Custom Bit Exchnge - Array.csproj", "{F9B78964-6423-442B-B5A6-5CA2AC1C8F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.Bit Exchange Bitwise", "13.Bit Exchange Bitwise\13.Bit Exchange Bitwise.csproj", "{B0FDD74C-C1AA-4FB4-84A6-BA488257B0E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.Custom Bit Exchnge -Bitwise", "14.Custom Bit Exchnge -Bitwise\14.Custom Bit Exchnge -Bitwise.csproj", "{AEF90F1D-B96E-4F6D-BD60-31005BE46D23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +95,14 @@ Global
 		{F9B78964-6423-442B-B5A6-5CA2AC1C8F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9B78964-6423-442B-B5A6-5CA2AC1C8F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9B78964-6423-442B-B5A6-5CA2AC1C8F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0FDD74C-C1AA-4FB4-84A6-BA488257B0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FDD74C-C1AA-4FB4-84A6-BA488257B0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FDD74C-C1AA-4FB4-84A6-BA488257B0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FDD74C-C1AA-4FB4-84A6-BA488257B0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF90F1D-B96E-4F6D-BD60-31005BE46D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF90F1D-B96E-4F6D-BD60-31005BE46D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF90F1D-B96E-4F6D-BD60-31005BE46D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF90F1D-B96E-4F6D-BD60-31005BE46D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

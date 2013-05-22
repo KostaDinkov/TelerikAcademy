@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7F9ED17B-D090-41B0-9741-F7A68B16CE4B}</ProjectGuid>
+    <ProjectGuid>{AEF90F1D-B96E-4F6D-BD60-31005BE46D23}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>exercise</RootNamespace>
-    <AssemblyName>exercise</AssemblyName>
+    <RootNamespace>_14.Custom_Bit_Exchnge__Bitwise</RootNamespace>
+    <AssemblyName>14.Custom Bit Exchnge -Bitwise</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="BitExchange.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
