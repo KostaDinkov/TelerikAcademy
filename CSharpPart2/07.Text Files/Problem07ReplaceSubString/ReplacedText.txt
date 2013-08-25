@@ -1,0 +1,6 @@
+Simple test file containing the word finish a lot of times. finish has to be here , finish there or finish elsewhere.
+New line finishs here. To finish a new line press enter.
+A blank line will finish below:
+
+End of the blank line.
+finishing new paragraph. finishus was a brave warrior from the planet Definishonia. 
