@@ -1,0 +1,40 @@
+﻿From MSDN:
+A string is an object of type String whose value is text. 
+Internally, the text is stored as a sequential read-only collection of 
+Char objects. There is no null-terminating character at the end of a C# 
+string; therefore a C# string can contain any number of embedded null 
+characters ('\0'). The Length property of a string represents the number 
+of Char objects it contains, not the number of Unicode characters. 
+To access the individual Unicode code points in a string, 
+use the StringInfo object.
+
+More Notable System.String Methods:
+
+Compare(String, String) - Compares two specified String objects and returns an 
+						integer that indicates their relative position in the sort order.
+
+Concat(String, String) - Concatenates two specified instances of String.
+
+Contains - Returns a value indicating whether the specified String object occurs within this string.
+
+Copy -	Creates a new instance of String with the same value as a specified String.
+
+Equals(String) - Determines whether this instance and another specified String object have the same value.
+
+IndexOf(String)	- Reports the zero-based index of the first occurrence of the specified string in this instance.
+
+Insert - Returns a new string in which a specified string is inserted at a specified index position in this instance.
+
+Join(String, String[]) - Concatenates all the elements of a string array, using the specified separator between each element.
+
+LastIndexOf(String)	- Reports the zero-based index position of the last occurrence of a specified string within this instance.
+
+Replace(String, String)	Returns a new string in which all occurrences of a specified string in the current instance are replaced with another specified string.
+
+Split(Char[])	Returns a string array that contains the substrings in this instance that are delimited by elements of a specified Unicode character array.
+
+ToLower()	Returns a copy of this string converted to lowercase.
+
+ToUpper()	Returns a copy of this string converted to uppercase.
+
+Trim(Char[])	Removes all leading and trailing occurrences of a set of characters specified in an array from the current String object.

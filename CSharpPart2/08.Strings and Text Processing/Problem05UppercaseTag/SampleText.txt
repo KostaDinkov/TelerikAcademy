@@ -1,0 +1,4 @@
+﻿We are living in a <upcase>yellow submarine</upcase>.We don't have <upcase>anything</upcase> else.
+<upcase>Some more sample test</upcase>, just to be sure.
+<upcase>Now including a 
+line break </upcase> Hell Yeah!
