@@ -11,8 +11,6 @@
  *              We are living in a YELLOW SUBMARINE. We don't have ANYTHING else.
  */
 
-//Note: Really proud of this one
-
 using System;
 using System.Text.RegularExpressions;
 using System.IO;
