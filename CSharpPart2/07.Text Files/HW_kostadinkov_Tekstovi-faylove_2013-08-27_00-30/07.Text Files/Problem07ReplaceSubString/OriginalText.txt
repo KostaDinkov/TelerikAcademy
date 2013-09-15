@@ -1,0 +1,6 @@
+﻿Simple test file containing the word start a lot of times. Start has to be here , start there or start elsewhere.
+New line starts here. To start a new line press enter.
+A blank line will start below:
+
+End of the blank line.
+Starting new paragraph. Startus was a brave warrior from the planet Destartonia. 
