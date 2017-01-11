@@ -1,0 +1,1 @@
+This application resizes the console width and hight . If you experience any problems starting it try changing your monitor resolution to a higher setting if possible. Tested on a 1920x1080.
